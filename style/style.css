@@ -1,0 +1,26 @@
+body {
+  background: #fff;
+}
+.cart {
+  margin: 100px 0;
+  background-color: #f6f5fa;
+  padding: 60px 0;
+}
+.cart-item .cart-item .form-control {
+  background-color: #f6f5fa;
+  border: none;
+  width: 65px;
+  border-radius: 10px !important;
+  font-weight: 700;
+  font-size: 20px;
+}
+input {
+  background-color: rgb(220, 203, 203);
+  border: none;
+  width: 100px;
+  border-radius: 10px !important;
+  font-size: 20px;
+}
+.footer-bar {
+  display: inline;
+}

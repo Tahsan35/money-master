@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Money Destiny</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav>
+      <header>
+        <p class="fs-1 text-center my-2 text-info">Money Destiny</p>
+      </header>
+    </nav>
+    <main>
+      <section class="container">
+        <div class="cart">
+          <div class="col-md-12 col-lg-10 mx-auto">
+            <div class="cart-item">
+              <div class="row">
+                <div class="col-md-7 center-item">
+                  <img src="image/pexels-photo-2068975.jpeg" alt="" srcset="" />
+                </div>
+                <div class="col-md-5 center-item">
+                  <h3 class="text-center">Income !!!</h3>
+                  <p>Income : <input id="income-input" type="text" /></p>
+                  <h3 class="text-center">Expenses</h3>
+                  <p>Food: <input id="food-input" type="text" /></p>
+                  <p>Rent : <input id="rent-input" type="text" /></p>
+                  <p>Clothes : <input id="clothe-input" type="text" /></p>
+                  <div class="d-grid gap-2 col-6 mx-auto">
+                    <button
+                      id="calculate-button"
+                      class="btn btn-primary"
+                      type="button"
+                    >
+                      Calculate
+                    </button>
+                    <h5 class="text-center">
+                      Total Expenses:$<span id="total-expenses">000</span>
+                    </h5>
+                    <h3 class="text-center">
+                      Balance:$<span id="balance">4500</span>
+                    </h3>
+                    <div class="footer-bar">
+                      <p>
+                        Save: <input id="saving-input" type="text" /> %
+                        <button
+                          id="saving-btn"
+                          class="btn btn-primary m-2"
+                          type="button"
+                        >
+                          Save
+                        </button>
+                      </p>
+                    </div>
+                  </div>
+                  <h3>Saving Amount:$<span id="percent-input">200</span></h3>
+                  <h3>
+                    Remaining Balance:$<span id="remainig-input">2500</span>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="js/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
